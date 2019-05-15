@@ -4,7 +4,7 @@ export interface Options {
   mobxPackage: string;
 }
 
-const actionIdentifier = 'action';
+const actionIdentifier = 'transformToMobxFlow';
 
 /** ts-jest calls this method for their astTransformers */
 export function factory() {
